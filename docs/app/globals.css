@@ -1,0 +1,14 @@
+@import 'nextra-theme-docs/style.css';
+
+:root {
+    /* Increase the maximum width of the content container */
+    --nextra-content-width: 120rem;
+}
+
+/* Reduce internal padding of the article on larger screens */
+@media (min-width: 768px) {
+    article {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
